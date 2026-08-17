@@ -1,0 +1,19 @@
+[book]
+authors = ["Benjamin Zambelli"]
+language = "en"
+src = "src"
+title = "My Rust Learning Journey"
+
+[output.html]
+site-url = "/my-rust-journey/"
+
+[output.html.playground]
+editable = true
+copyable = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+
+[rust]
+edition = "2024"
